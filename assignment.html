@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+  border: 5px solid black;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+  width: 30%;
+  height: 30%;
+}
+</style>
+</head>
+<body>
+
+<h1>RESUME</h1>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Profile info</h2>
+    <section class="parent">
+    <article class="child">
+      <img src="image/man.svg" class="profile">
+      <h2>Name:Abdul Rehman</h2>
+      <h3><em>profession:Student</h3>
+      <h3>Date of birth:10/02/1999</h3>
+      <h3>Mobile number=+917093649736</h3>
+      <h3>Mail id:shaik_abdulrehman@srmap.edu.in</h3>
+        
+    </article>
+  </section>
+    <p>Some text..</p>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>EDUCATION ACHEIVEMENTS</h2>
+    <H3>*School          :  Montessori high school,kurnool</H3>
+    <h3>*intermediate    :  sri chaitanya college,kurnool</h3>
+    <h3>*bachelors degree:  srm university,amaravathi</h3>
+    <h2>internship</h2>
+    <H3>Reactjs,APSSDC</H3>
+    <h2>Intrest</h2>
+    <h3>*gamming</h3>
+    <h3>*bike riding</h3>
+    <h3>*reading books</h3>
+
+    
+  </div>
+</div>
+
+</body>
+</html> 
+
+
+
